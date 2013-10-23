@@ -349,8 +349,8 @@
     control: $('<span class="input-group-addon">&nbsp;</span>'),
     palette: $('<div class="colorPicker-palette dropdown-menu" />'),
     swatch : $('<li class="colorPicker-swatch-container"><a href="#"><div class="colorPicker-swatch">&nbsp;</div></a></li>'),
-    hexField: $('<input type="text" class="input-small colorPicker-addSwatchInput" />'),
-    addSwatchButton: $('<input type="button" class="btn colorPicker-addSwatchButton" value="add" />')
+    hexField: $('<div class="col-lg-8"><input type="text" class="form-control input-sm colorPicker-addSwatchInput" placeholder="#000000"></div>'),
+    addSwatchButton: $('<button type="button" class="btn btn-default colorPicker-addSwatchButton">Add</button>')
   };
 
   ColorPicker.prototype.customColorsKey = 'jquery.reallySimpleBootstrapColorPicker.customColors';

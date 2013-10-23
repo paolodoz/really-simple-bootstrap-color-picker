@@ -346,7 +346,7 @@
 
   ColorPicker.prototype.templates = {
     container: $('<div class="colorPicker-addSwatchContainer" />'),
-    control: $('<div class="colorPicker-picker add-on">&nbsp;</div>'),
+    control: $('<span class="input-group-addon">&nbsp;</span>'),
     palette: $('<div class="colorPicker-palette dropdown-menu" />'),
     swatch : $('<li class="colorPicker-swatch-container"><a href="#"><div class="colorPicker-swatch">&nbsp;</div></a></li>'),
     hexField: $('<input type="text" class="input-small colorPicker-addSwatchInput" />'),
